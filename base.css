@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15%;
+    background-color: #6899A2;
+    padding: 7px 20px 0px;
+    display: flex;
+    padding-top: 12px;
+    list-style: none;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 200px;
+    background-image: url(aperto\ de\ mão\ 2.0.png);
+    background-size: cover;   
+    background-position: 0 250px; 
+}
+
+.cabeça {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background-image: url(Sala.avif);
+    background-size: cover;   
+    background-position: 0 300px; 
+}
+
+.cabe {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background-image: url(https://wallpapercave.com/wp/wp2968506.jpg);
+    background-size: cover;   
+    background-position: 0 480px;
+}
+
+.jaca {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background-image: url(https://wallpapercave.com/wp/wp4700063.jpg);
+    background-size: cover;   
+    background-position: 0 420px;
+}
+.content {
+    background-color: whitesmoke;
+    min-height: 300px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.footer {
+    background-color:#2d3839;
+    min-height: 150px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 16px;
+    margin: 0%;
+    line-height: 2em;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#imagem {
+    width: 170px;
+}
+a:hover {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+}
+
+table thead tr{
+    background-color: #2d3839;
+    color: white;
+}
+table tbody tr:hover {
+   background-color: grey;
+   color: white;
+   cursor: pointer;
+}
+
+table tbody tr td{
+    color: #000000;
+    border: solid 1px;
+}
+table {
+    border: solid 1px;
+}
+
+iframe{
+    position: relative;
+    left: 400px;
+    bottom: 290px;
+    border-radius: 5px;
+}
+
+form {
+    padding: 12px;
+    
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+
+
